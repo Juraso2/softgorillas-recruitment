@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rows>
+    <row>
+        <number>1</number>
+        <description>Hello World!</description>
+        <dueDate>2020-01-04 13:30:00</dueDate>
+        <phone nullable="true"/>
+    </row>
+    <row>
+        <number>2</number>
+        <description>Hello World 2!</description>
+        <dueDate>2020-01-07 00:30:11</dueDate>
+        <phone/>
+    </row>
+</rows>

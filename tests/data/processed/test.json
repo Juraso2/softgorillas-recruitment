@@ -1,0 +1,10 @@
+[
+    {
+        "description": "Hello World!",
+        "type": "failure"
+    },
+    {
+        "description": "Hello World 2!",
+        "type": "failure"
+    }
+]

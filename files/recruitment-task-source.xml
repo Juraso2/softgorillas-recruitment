@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rows>
+    <row>
+        <number>1</number>
+        <description>Awaria klimatyzacji. Na salonie temperatura wzrosła do 27 stopni. Pozdrawiam Ela.</description>
+        <dueDate>2020-01-04 13:30:00</dueDate>
+        <phone nullable="true"/>
+    </row>
+    <row>
+        <number>2</number>
+        <description>Prośba o wizytę    </description>
+        <dueDate>2020-01-07 00:30:11</dueDate>
+        <phone>&quot;</phone>
+    </row>
+    <row>
+        <number>3</number>
+        <description>Cieknący kran na zapleczu. Mokre buty!</description>
+        <dueDate>2020-02-01 04:32:00</dueDate>
+        <phone>4</phone>
+    </row>
+    <row>
+        <number>4</number>
+        <description>Odpada tynk między szafą, regałem a witryną, proszę o doklejenie go.</description>
+        <dueDate>2020-02-03 15:15</dueDate>
+        <phone>666-445-127</phone>
+    </row>
+    <row>
+        <number>5</number>
+        <description>Przegląd zaplanowany na luty. Prosze spojrzeć też do rozdzielni.</description>
+        <dueDate>2020-02-05 00:00</dueDate>
+        <phone>888000128</phone>
+    </row>
+    <row>
+        <number>6</number>
+        <description>Witam dzień dobry, mam sprawę, zgłaszałam ostatnio awarię, ale teraz chciała bym przegląd, proszę przyjechać przeglądnąć klimakonwektory.</description>
+        <dueDate/>
+        <phone>668-221-777</phone>
+    </row>
+    <row>
+        <number>7</number>
+        <description>Awaria! Awaria pompy głębinowej w na basenie dla gości VIP. Nie ma czasu proszę w tej chwili przyjechać.</description>
+        <dueDate/>
+        <phone>668-221-777</phone>
+    </row>
+    <row>
+        <number>8</number>
+        <description>Proszę przyjechać na przegląd instalacji elektrycznej dnia 15 lutego.</description>
+        <dueDate>2020-02-15</dueDate>
+        <phone>+48606303404</phone>
+    </row>
+    <row>
+        <number>9</number>
+        <description>Klima nie chłodzi, tylko grzeje, nie jestem z tego powodu zadowolona.</description>
+        <dueDate nullable="true"/>
+        <phone/>
+    </row>
+    <row>
+        <number>10</number>
+        <description>Czy Panowie mogą zjawić się na ponowny przegląd rur kanalizacyjnych? Mamy tu mały problem z zapachem.</description>
+        <dueDate>2020-02-22</dueDate>
+        <phone>+48701145976</phone>
+    </row>
+    <row>
+        <number>11</number>
+        <description>Prośba o wizytę    </description>
+        <dueDate>2020-02-23</dueDate>
+        <phone/>
+    </row>
+    <row>
+        <number>12</number>
+        <description>Bardzo pilne. Proszę o interwencję serwisu, chłodziarki w dziale mięso działają jak chcą, tzn. działają albo nie działają.</description>
+        <dueDate>2020-03-01</dueDate>
+        <phone>876123567</phone>
+    </row>
+    <row>
+        <number>13</number>
+        <description>Sprawa jest dosć pilna ponieważ mamy wyciek wody lodowej przy samym suficie, w rogu. Proszę o wizytę!</description>
+        <dueDate>2020-03-02</dueDate>
+        <phone>873322976</phone>
+    </row>
+    <row>
+        <number>14</number>
+        <description>Awaria kotła w głownym pomieszczeniu magazynowym.</description>
+        <dueDate/>
+        <phone/>
+    </row>
+    <row>
+        <number>15</number>
+        <description>Krajalnice mięso. Nie działa tarczka głównej maszyny bardzo pilne.</description>
+        <dueDate/>
+        <phone>888241636</phone>
+    </row>
+    <row>
+        <number>16</number>
+        <description>Awaria kotła w głownym pomieszczeniu magazynowym.</description>
+        <dueDate/>
+        <phone/>
+    </row>
+    <row>
+        <number>17</number>
+        <description>Mam na panów złą wiadomość. Zapraszam na ponowny przegląd maty zabezpieczającej w meblu kasowym. Ostatnio był a sprzęt niestety nie działa, pilne!</description>
+        <dueDate>2020-03-02 00:00:00</dueDate>
+        <phone>+48505167301</phone>
+    </row>
+    <row>
+        <number>18</number>
+        <description>Myślę że już czas pomyśleć o ponownym przeglądzie klimatyzacji na sali sprzedaży.Bardzo pilne to nie jest ale, POTRZEBNE!</description>
+        <dueDate/>
+        <phone>506 482 179</phone>
+    </row>
+    <row>
+        <number>19</number>
+        <description>Brak internetu w pomieszczeniu pracowniczym, nie wiem może ktoś urwał od internetu kabel.</description>
+        <dueDate/>
+        <phone nullable="true"/>
+    </row>
+    <row>
+        <number>20</number>
+        <description>pRosimy o natychmiastoO0wy Przgląd wuzków widłowych, wydaje sie ze cos z nNIch wYCIEKa</description>
+        <dueDate>2020-04-01</dueDate>
+        <phone>567-124-572</phone>
+    </row>
+</rows>
