@@ -42,7 +42,7 @@ jobs:
         run: docker compose exec -T php bin/phpunit --coverage-clover clover.xml
       -
         name: Generate test coverage badge
-        uses: timkrase/phpunit-coverage-badge@v1.2.0
+        uses: timkrase/phpunit-coverage-badge@v1.2.1
         with:
           coverage_badge_path: .github/coverage.svg
           push_badge: false
