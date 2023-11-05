@@ -2,7 +2,7 @@
 
 # Softgorillas recruitment task
 
-![Tests](https://github.com/dunglas/symfony-docker/workflows/CI/badge.svg)
+![Tests](https://github.com/Juraso2/softgorillas-recruitment/workflows/tests/badge.svg)
 ![Code coverage](https://raw.githubusercontent.com/Juraso2/softgorillas-recruitment/image-data/coverage.svg)
 
 This application is a recruitment task for Softgorillas company.
