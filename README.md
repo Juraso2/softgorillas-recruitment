@@ -1,49 +1,47 @@
-# Symfony Docker
+<div align="center">
 
-A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony](https://symfony.com) web framework,
-with [FrankenPHP](https://frankenphp.dev) and [Caddy](https://caddyserver.com/) inside!
+# Softgorillas recruitment task
 
 ![Tests](https://github.com/dunglas/symfony-docker/workflows/CI/badge.svg)
 ![Code coverage](https://raw.githubusercontent.com/Juraso2/softgorillas-recruitment/image-data/coverage.svg)
+
+This application is a recruitment task for Softgorillas company.
+
+Application is responsible for processing message collection and saving it to json file.<br />
+Application is dockerized and uses docker-compose to run.
+
+[Getting Started](#getting-started) •
+[Running command](#running-command) •
+[Running tests](#running-tests)
+
+</div>
 
 ## Getting Started
 
 1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/) (v2.10+)
 2. Run `docker compose build --no-cache` to build fresh images
 3. Run `docker compose up --pull -d --wait` to start the project
-4. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
 5. Run `docker compose down --remove-orphans` to stop the Docker containers.
 
-## Features
+## Running command
 
-* Production, development and CI ready
-* Just 1 service by default
-* Blazing-fast performance thanks to [the worker mode of FrankenPHP](https://github.com/dunglas/frankenphp/blob/main/docs/worker.md) (automatically enabled in prod mode)
-* [Installation of extra Docker Compose services](docs/extra-services.md) with Symfony Flex
-* Automatic HTTPS (in dev and prod)
-* HTTP/3 and [Early Hints](https://symfony.com/blog/new-in-symfony-6-3-early-hints) support
-* Real-time messaging thanks to a built-in [Mercure hub](https://symfony.com/doc/current/mercure.html)
-* [Vulcain](https://vulcain.rocks) support
-* Native [XDebug](docs/xdebug.md) integration
-* Super-readable configuration
+To run a command, first you need to enter the php container by running 
+```sh
+docker compose exec php bash
+```
+Then you can run 
+```sh
+php bin/console app:process-collection
+``` 
+to process message collection.
 
-**Enjoy!**
+## Running tests
 
-## Docs
-
-1. [Build options](docs/build.md)
-2. [Using Symfony Docker with an existing project](docs/existing-project.md)
-3. [Support for extra services](docs/extra-services.md)
-4. [Deploying in production](docs/production.md)
-5. [Debugging with Xdebug](docs/xdebug.md)
-6. [TLS Certificates](docs/tls.md)
-7. [Using a Makefile](docs/makefile.md)
-8. [Troubleshooting](docs/troubleshooting.md)
-
-## License
-
-Symfony Docker is available under the MIT License.
-
-## Credits
-
-Created by [Kévin Dunglas](https://dunglas.dev), co-maintained by [Maxime Helias](https://twitter.com/maxhelias) and sponsored by [Les-Tilleuls.coop](https://les-tilleuls.coop).
+To run tests, first you need to enter the php container by running 
+```sh
+docker compose exec php bash
+```
+Then you can run 
+```sh
+php bin/phpunit
+```
