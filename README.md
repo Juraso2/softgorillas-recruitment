@@ -14,6 +14,8 @@ Application is dockerized and uses docker-compose to run.
 [Running command](#running-command) •
 [Running tests](#running-tests)
 
+![Example](/img/example.png)
+
 </div>
 
 ## Getting Started
@@ -27,7 +29,7 @@ Application is dockerized and uses docker-compose to run.
 
 To run a command, first you need to enter the php container by running 
 ```sh
-docker compose exec php bash
+docker compose exec php sh
 ```
 Then you can run 
 ```sh
@@ -39,7 +41,7 @@ to process message collection.
 
 To run tests, first you need to enter the php container by running 
 ```sh
-docker compose exec php bash
+docker compose exec php sh
 ```
 Then you can run 
 ```sh
